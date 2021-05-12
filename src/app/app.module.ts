@@ -17,13 +17,15 @@ import { HomeComponent } from './components/home/home.component';
 import { HttpHeadersInterceptor } from './interceptors/http-headers.interceptors';
 import { HttpErrorsInterceptor } from './interceptors/http-error.interceptors';
 import { DetailsComponent } from './compoents/details/details.component';
+import { DetailsTabComponent } from './components/details-tab/details-tab.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
     HomeComponent,
-    DetailsComponent
+    DetailsComponent,
+    DetailsTabComponent
   ],
   imports: [
     BrowserModule,

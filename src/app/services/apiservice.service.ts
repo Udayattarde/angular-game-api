@@ -14,7 +14,7 @@ export class ApiserviceService {
 
   getGameLists(ordering:string,search?:string):Observable<APIResponse<Game>>
   {
-    let params = new HttpParams().set('ordering', ordering);
+    let params = new HttpParams().set('uday', ordering);
 
     if (search) {
       params = new HttpParams().set('ordering', ordering).set('search', search);
